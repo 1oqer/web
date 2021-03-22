@@ -1,0 +1,420 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body{
+    margin:0px;
+}
+
+header{
+    width: 100%;
+    height: 770px;
+}
+
+.bg_wrapper{
+    width: 100%;
+    height: 770px;
+    background: url('photo/bg.svg') no-repeat;
+    background-size:100%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    margin-top:40px;
+}
+
+.partner{
+    text-align: center;
+}
+.partner>p{
+    margin: 0;
+}
+.scroll{
+    letter-spacing: 3.7px;
+}
+
+nav{
+    width: 100%;
+    height: 65px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid #E6E6E6;
+}
+
+.navbar__menu_wrapper>div>p{
+    margin-top:0;
+}
+
+.navbar__menu_wrapper>div>p>a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Open Sans';
+    font-size: 12px;
+    color: #48555B;
+    margin-bottom: 0;
+}
+
+.navbar__menu_wrapper>div>p>a:hover{
+    color:#00A4E5;
+}
+.navbar__logo{
+    margin-top:24px;
+    margin-left: 250px;
+}
+.navbar__menu_wrapper{
+    margin-top:24px;
+    margin-right: 250px;
+    width: 700px;
+    display: flex;
+    justify-content: space-evenly;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about{
+    margin-top: 52px;
+    color:#48555B;
+    width: 940px;
+    height: 344px;
+    display: flex;
+    flex-direction: column;
+}
+.head_wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.head_wrapper>h3{
+    margin: 0;
+}
+.line{
+    margin-top: 10px;
+    width: 50px;
+    height: 2px;
+    background: #00A4E5;
+}
+.about__content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.left_text_content{
+    color:#48555B;
+    width: 405px;
+    margin-top: 20px;
+}
+.first_text{
+    width: 405px;
+    height: 81px;
+}
+.second_text{
+    margin-top: 50px;
+    width: 405px;
+    height: 115px;
+}
+.right_content{
+    margin-top: 60px;
+    margin-left: 80px;
+    text-transform: uppercase;
+    font-family: 'Open Sans';
+    font-size: 24px;
+    color: #fff;
+    width: 460px;
+    display: flex;
+    justify-content: space-between;
+}
+.right_content>div{
+    width: 140px;
+    height: 224px;
+}
+.plan{
+    background: url('photo/plan.jpg');
+}
+.manage{
+    background: url('photo/manage.jpg');
+}
+.build{
+    background: url('photo/build.jpg');
+}
+.right_content>div>p{
+    padding-left:14px;
+}
+.services{
+    width: 940px;
+    height: 446px;
+    display: flex;
+    margin-top: 120px;
+    margin-bottom: 115px;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #48555B;
+}
+.top_line{
+    width: 100%;
+    height: 38px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.wrap_content{
+    display: flex;
+}
+.name_wrap{
+    text-transform: uppercase;
+}
+.name_wrap>h3{
+    margin: 0;
+}
+.services_text{
+    font-family: 'Open Sans';
+    font-size: 11px;
+    width: 405px;
+}
+.services_text,
+.services_text>p{
+    margin: 0;
+}
+.all_services{
+    width: 150px;
+    height: 40px;
+    display: flex;
+    font-family: 'Open Sans';
+    text-transform: uppercase;
+    color: #fff;
+    background: #00a4e5;
+    align-items: center;
+    justify-content: center;
+}
+.all_services:hover,
+.get_in_touch>button:hover,
+.signup:hover{
+    background: #b5bae5;
+    cursor: pointer;
+}
+.services_list{
+    width: 100%;
+    display: flex;
+    font-family: 'Open Sans';
+    justify-content: space-between;
+}
+.project>.service_content_wrap>.service_logo{
+    width: 67px;
+    height: 75px;
+    background: url('photo/services/project.svg') no-repeat;
+}
+.structure>.service_content_wrap>.service_logo{
+    width: 67px;
+    height: 75px;
+    background: url('photo/services/structure.svg') no-repeat;
+}
+.factory>.service_content_wrap>.service_logo{
+    width: 67px;
+    height: 75px;
+    background: url('photo/services/factory.svg') no-repeat;
+}
+.services_list>div{
+    width: 295px;
+    height: 330px;
+    border: 1px solid #e6e6e6;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.service_content_wrap{
+    margin-left:23px;
+}
+.get_in_touch{
+    font-family: 'Open Sans';
+    width: 100%;
+    height: 650px;
+    background: url('/photo/getintouch_bg.svg') no-repeat;
+    background-size:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.get_in_touch>h2{
+    padding-top: 200px;
+}
+.get_in_touch>button{
+    width: 150px;
+    height: 40px;
+    text-transform: uppercase;
+    color: #fff;
+    background: #00a4e5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    outline: none;
+}
+.newsletter{
+    width: 100%;
+    height: 100px;
+    background: #171819;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.newsletter_content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 750px;
+}
+.newsletter_head{
+    color: #fff;
+    font-family: 'Open Sans';
+    font-size: 22px;
+    margin: 0;
+}
+.input_mail{
+    margin: 0;
+    width: 400px;
+    display: flex;
+    font-family: 'Open Sans';
+}
+.input{
+    width: 250px;
+    height: 40px;
+    background: #fff;
+    display: flex;
+    font-size: 14px;
+    font-family: 'Open Sans';
+}
+.input>input{
+    width: 100%;
+    outline: none;
+    border: none;
+}
+.signup{
+    width: 150px;
+    height: 40px;
+    background: #00a4e5;
+    color:#fff;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.more_info{
+    width: 100%;
+    height: 360px;
+    background: #141a20;
+    font-family: 'Open Sans';
+    display: flex;
+    justify-content: space-evenly;
+}
+.company{
+    width: 350px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.company>h3{
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.846px;
+}
+.company_logo{
+    width: 200px;
+    height: 43px;
+    background: url('photo/logo.svg') no-repeat;
+    background-size: 100%;
+}
+.about_company{
+    color:#fff;
+    letter-spacing: 2px;
+}
+.links{
+    width: 362px;
+    height: 150px;
+}
+.links>h3{
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.846px;
+}
+.links_list{
+    font-family: 'Open Sans';
+    font-size: 16px;
+    color:#fff;
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.contact>h3{
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.846px;
+}
+.contact{
+    width: 200px;
+    height: 150px;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    color:#fff;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    letter-spacing: 2px;
+
+}
+.contact>a{
+    text-decoration: none;
+    color:#fff;
+}
+.socials{
+    margin-top: 70px;
+    width: 160px;
+    display: flex;
+    justify-content: space-between;
+}
+.fb{
+    width: 30px;
+    height: 30px;
+    background: url('photo/socials/fb.svg') no-repeat;
+    background-size: 100%;
+}
+.twitter{
+    width: 30px;
+    height: 30px;
+    background: url('photo/socials/twitter.svg') no-repeat;
+    background-size: 100%;
+}
+.google{
+    width: 30px;
+    height: 30px;
+    background: url('photo/socials/google.svg') no-repeat;
+    background-size: 100%;
+}
+.copyright{
+    width: 100%;
+    height: 60px;
+    background: #171819;
+    font-family: 'Open Sans';
+    font-size: 18px;
+    letter-spacing: 0.85 px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.copyright>p{
+    margin: 0;
+}
